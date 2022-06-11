@@ -1,0 +1,466 @@
+/* Nav bar Css Start*/
+.nav-img {
+    width: 90px;
+}
+
+/* Nav bar Css End*/
+
+/* banner-section Css Start */
+.banner-section {
+    background-color: #f9f9ff;
+}
+
+.defult-btn {
+    background-color: #7d89ff;
+}
+
+/* banner-section Css End */
+
+/* About_section Css Start */
+.about-section p {
+    font-size: 14px;
+    width: 480px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* About_section Css End */
+
+/* Number-counter CSS Start*/
+.number-counter {
+    background-color: #8490ff;
+}
+
+/* Number-counter CSS End*/
+
+/* Pricing Table Section Css Start */
+.pricing-table {
+    background-color: #f9f9ff;
+}
+
+.pt-p {
+    font-weight: 600;
+}
+
+.card-n {
+    width: 100px;
+    height: 100px;
+    background-color: #f9f9ff;
+}
+
+.pt-h5 {
+    font-weight: 600;
+}
+
+.pricing-item a {
+    border-color: #657be0;
+    border-width: 2px;
+    color: #657be0;
+    padding: 5px 17px;
+    font-size: 23px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64, 87, 191, .2);
+}
+
+/* Pricing Table Section Css End */
+
+
+/* Team_Section Css Start*/
+.team_section {}
+
+.team-item {
+    margin-top: 140px;
+}
+
+.team-item .card {}
+
+.team-item .card img {
+    width: 100px;
+    margin: auto;
+    margin-top: -72px;
+    margin-left: 15px;
+}
+
+.card-body h4 {
+    font-weight: 600;
+}
+
+/* Team_Section Css End*/
+
+/* contact_section CSS Start */
+.contact_section {
+    background-color: #f9f9ff;
+}
+
+.contact-form-div .card {
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 15%);
+}
+
+.con-sub h3 {
+    font-weight: 500;
+
+}
+
+.con-sub h4 {
+    color: #323233f6;
+    font-size: 21px;
+}
+
+.con-sub h5 {
+    font-size: 21px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.680);
+}
+
+.con-sub span {
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+/* contact_section CSS End */
+
+/* footer-section Css Start */
+
+.footer-section p {
+    margin-top: 14px;
+}
+
+/* footer-section Css End */
+
+
+
+/* Responsive CSS */
+@media all and (max-width: 991px) {
+    .banner-section img {
+        width: 320px !important;
+    }
+
+    .about-section img {
+        float: right;
+    }
+    .md-s{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .md-s img {
+        margin-right: 35px;
+        width: 318px !important;
+    }
+    .about-section p {
+        font-size: 13px;
+        width: 350px;
+        margin-bottom: 0px;
+        font-weight: 600;
+        margin-top: 9px !important;
+    }
+    .about-section h1{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .pt-h5 {
+        font-weight: 500;
+        font-size: 13px;
+        margin: 0;
+    }
+    .card-n {
+        width: 80px;
+        height: 80px;
+        margin: 5px 0;
+    }
+
+    .pricing-table .card-body h3 {
+        font-size: 24px !important;
+    }
+    .pricing-item a {
+        padding: 3px 15px;
+        font-size: 21px;
+        margin-top: 0 !important;
+    }
+    .con-sub {
+        margin-top: 95px !important;
+    }
+    .con-sub h4 {
+        font-size: 18px;
+    }
+    .con-sub span {
+        font-size: 14px;
+    }
+    .con-sub h3 {
+        font-size: 25px;
+    }
+    .con-sub h5 {
+        font-size: 17px;
+    }
+    .card-body form textarea {
+        height: 137px;
+    }
+}
+@media all and (max-width: 768px) {
+    .banner-section img {
+        width: 320px !important;
+    }
+
+    .about-section img {
+        float: right;
+    }
+    .md-s{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .md-s img {
+        margin-right: 35px;
+        width: 318px !important;
+    }
+    .about-section p {
+        font-size: 13px;
+        width: 350px;
+        margin-bottom: 0px;
+        font-weight: 600;
+        margin-top: 9px !important;
+    }
+    .about-section h1{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .pt-h5 {
+        font-weight: 500;
+        font-size: 13px;
+        margin: 0;
+    }
+    .card-n {
+        width: 80px;
+        height: 80px;
+        margin: 5px 0;
+    }
+
+    .pricing-table .card-body h3 {
+        font-size: 24px !important;
+    }
+    .pricing-item a {
+        padding: 3px 15px;
+        font-size: 21px;
+        margin-top: 0 !important;
+    }
+    .con-sub {
+        margin-top: 95px !important;
+    }
+    .con-sub h4 {
+        font-size: 18px;
+    }
+    .con-sub span {
+        font-size: 14px;
+    }
+    .con-sub h3 {
+        font-size: 25px;
+    }
+    .con-sub h5 {
+        font-size: 17px;
+    }
+    .card-body form textarea {
+        height: 137px;
+    }
+}
+@media all and (max-width: 767px) {
+    .banner-section img {
+        width: 365px !important;
+        margin-left: 55px !important;
+    }
+    .md-s img {
+        margin-right: 110px;
+        margin-bottom: 25px;
+    }
+
+    .about-section p {
+        width: 530px;
+    }
+    .pricing-table h1 {
+        font-size: 32px;
+    }
+    .pt-p {
+        font-size: 12px;
+    }
+    .pricing-item .card {
+        width: 60%;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .contact_section {
+        padding: 30px 0 !important;
+    }
+    .con-sub {
+        margin-top: 30px !important;
+        padding-left: 12px !important;
+    }
+}
+@media all and (max-width: 576px) {
+    .banner-section img {
+        width: 365px !important;
+        margin-left: 55px !important;
+    }
+    .md-s img {
+        margin-right: 110px;
+        margin-bottom: 25px;
+    }
+
+    .about-section p {
+        width: 530px;
+    }
+    .pricing-table h1 {
+        font-size: 32px;
+    }
+    .pt-p {
+        font-size: 12px;
+    }
+    .pricing-item .card {
+        width: 60%;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .contact_section {
+        padding: 30px 0 !important;
+    }
+    .con-sub {
+        margin-top: 30px !important;
+        padding-left: 12px !important;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .banner-section img {
+        width: 300px !important;
+        margin-left: 84px !important;
+    }
+    .about-section p {
+        width: 496px;
+    }
+    .md-s img {
+        margin-right: 111px !important;
+    }
+    .number-counter .col-xs-6 {
+        width: 50%;
+        margin-top: 10px;
+    }
+    .pricing-item .card {
+        width: 63%;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .team_section .col-xs-6 {
+        width: 63%;
+        margin: auto;
+    }
+    .contact_section form .col-xs-6{
+        margin-top: 15px;
+    }
+}
+@media all and (max-width: 530px) {
+    .banner-section img {
+        width: 300px !important;
+        margin-left: 76px !important;
+    }
+}
+
+@media all and (max-width: 506px) {
+    .banner-section img {
+        width: 296px !important;
+        margin-left: 29px !important;
+    }
+    .about-section p {
+        width: 393px;
+    }
+    .md-s img {
+        margin-right: 54px !important;
+    }
+    .number-counter .col-xs-6 {
+        width: 50%;
+        margin-top: 10px;
+    }
+    .pricing-item .card {
+        width: 75%;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .team_section .col-xs-6 {
+        width: 75%;
+        margin: auto;
+    }
+    .contact_section form .col-xs-6{
+        margin-top: 15px;
+    }
+}
+@media all and (max-width: 425px) {
+    .banner-section img {
+        width: 296px !important;
+        margin-left: 29px !important;
+    }
+    .about-section p {
+        width: 393px;
+    }
+    .md-s img {
+        margin-right: 54px !important;
+    }
+    .number-counter .col-xs-6 {
+        width: 50%;
+        margin-top: 10px;
+    }
+    .pricing-item .card {
+        width: 75%;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .team_section .col-xs-6 {
+        width: 75%;
+        margin: auto;
+    }
+    .contact_section form .col-xs-6{
+        margin-top: 15px;
+    }
+    
+}
+@media all and (max-width: 405px) {
+    .banner-section img {
+        width: 273px !important;
+        margin-left: 27px !important;
+    }
+    .md-s img {
+        margin-right: 42px !important;
+    }
+    .about-section p {
+        width: 350px;
+    }
+    .pricing-table h1 {
+        font-size: 27px;
+    }
+}
+@media all and (max-width: 375px) {
+    .banner-section img {
+        width: 273px !important;
+        margin-left: 11px !important;
+    }
+    .md-s img {
+        margin-right: 25px !important;
+    }
+    .about-section p {
+        width: 350px;
+    }
+    .pricing-table h1 {
+        font-size: 27px;
+    }
+}
+@media all and (max-width: 360px) {
+    .banner-section img {
+        width: 273px !important;
+        margin-left: 11px !important;
+    }
+    .md-s img {
+        margin-right: 25px !important;
+    }
+    .about-section p {
+        width: 311px;
+    }
+    .pricing-table h1 {
+        font-size: 27px;
+    }
+}
